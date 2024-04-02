@@ -1,0 +1,24 @@
+{
+  "name": "no-cors-proxy",
+  "version": "1.0.0",
+  "description": "This is proxy server to bypass CORS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vertically-challenged/no-cors-proxy.git"
+  },
+  "author": "Pavel Poroshin <pavel.poroshin.developer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vertically-challenged/no-cors-proxy/issues"
+  },
+  "homepage": "https://github.com/vertically-challenged/no-cors-proxy#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
