@@ -9,9 +9,7 @@ app.use((req, res) => {
         hostname: URL_SPLIT[1],
         path: '/' + URL_SPLIT.slice(2, URL_SPLIT.length).join('/'),
     };
-    console.log(options)
     let proxy = https.request(options, function (targetRes) {
-        console.log(targetRes.statusCode)
         targetRes.headers['Access-Control-Allow-Origin'] = '*'
         res.writeHead(targetRes.statusCode, {
             ...targetRes.headers, 
