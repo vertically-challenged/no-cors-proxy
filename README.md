@@ -18,6 +18,16 @@
 - targetHost - 2ch.hk 
 - url - b/catalog.json
 
+## Как развернуть?
+
+1. Клонировать репозиторий 
+2. Перейти в его папку 
+3. Выполнить ```npm ci```
+4. Запустить ```npm run start```
+
+Для этого у вас должны быть установлены npm и Node, с.м. google.com 
+
+
 ##
 
 [![Static Badge](https://img.shields.io/badge/twitch-grey?style=for-the-badge&logo=twitch)](https://www.twitch.tv/fantomas_izy) [![Static Badge](https://img.shields.io/badge/contact-grey?style=for-the-badge&logo=telegram)](https://t.me/Pavel_Poroshin_3)
